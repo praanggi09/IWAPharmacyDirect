@@ -1,0 +1,9 @@
+{
+     "app_name" : "IWAPharmacyDirect2" ,
+     "app_version" : "1.0.0",
+     "dast" : {
+          "scan_type" : "STANDARD",
+          "url" : "http://10.87.1.76/",
+          "webmacro" : "DAST/iwa-76-port80.webmacro",
+     }
+}
