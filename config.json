@@ -7,7 +7,7 @@
           "webmacro" : "DAST/iwa-76-port80.webmacro",
      },
      "enable_dast_gate" : true,
-      "sast_gate" : {
+     "dast_gate" : {
       	"critical" : 1000,
           "high" : 1000,
       	"medium" : 1000,
