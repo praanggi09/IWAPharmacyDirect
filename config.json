@@ -5,5 +5,12 @@
           "scan_type" : "STANDARD",
           "url" : "http://10.87.1.76/",
           "webmacro" : "DAST/iwa-76-port80.webmacro",
-     }
+     },
+     "enable_dast_gate" : true,
+      "sast_gate" : {
+      	"critical" : 1000,
+          "high" : 1000,
+      	"medium" : 1000,
+          "low" : 1000
+      }
 }
