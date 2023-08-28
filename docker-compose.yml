@@ -4,7 +4,7 @@ services:
     image: iwa:latest
     restart: always
     ports:
-      - "8080:8080"
+      - "8081:8080"
     networks:
       - iwa-net
   nginx:
@@ -12,7 +12,7 @@ services:
     restart: always
     ports:
       - "80:80"
-      - "443:443"
+      # - "443:443"
     volumes:
       - ./data/nginx:/etc/nginx/conf.d
       - ./data/certbot/conf:/etc/letsencrypt
